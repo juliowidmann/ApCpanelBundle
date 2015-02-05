@@ -48,6 +48,7 @@ ap_cpanel:
 public function someAction()
 {
 //..    
+// modificado
 	$cpanel = $this->container->get('ap_cpanel.api');
 	
     $accountsJson = $cpanel->listaccts()->exec();
